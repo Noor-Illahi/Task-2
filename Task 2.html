@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -90,7 +90,7 @@
                 <div class="project">
                     <h3>Project 2</h3>
                     <p>Its my 2nd project in whivh you are entered in and recearching.</p>
-        </section>
+    
         <section id="skills">
             <h2>Skills</h2>
             <div class="skills">
@@ -98,7 +98,7 @@
                     <h3>computer operator</h3>
                     <p>I can operate computer more better than a normal human being can use .</p>
                 </div>    
-        </section>
+       
         <section id="contact">
             <h2>Contact</h2>
             <p>If you would like to get in touch, please reach out to me via email at <a href="mailto:your.noorillahi154@gmail.com">noorillahi154@mail.com</a>.</p>
@@ -110,5 +110,3 @@
     <footer>
         <p>&copy; 2024 It is my Portfolio. All rights reserved by me Noor Illahi </p>
     </footer>
-</body>
-</html>
