@@ -1,1 +1,114 @@
-# Task-2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .projects, .skills, .contact {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .project, .skill {
+            flex: 1;
+            padding: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h1>About Me</h1>
+            <p>My name is Noor Illahi I am a Student and a professional passionate web developer with experience in creating dynamic and responsive web applications. I love solving problems and learning new technologies.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>our task 1 was my first project ever on html language.</p>
+                    <a href="https://noor-illahi.github.io/My-Task-1/" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Its my 2nd project in whivh you are entered in and recearching.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>computer operator</h3>
+                    <p>I can operate computer more better than a normal human being can use .</p>
+                </div>    
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you would like to get in touch, please reach out to me via email at <a href="mailto:your.noorillahi154@gmail.com">noorillahi154@mail.com</a>.</p>
+            
+            <h3>Phone+WhatsApp</h3>
+            <p>Phone: <a href="tel:+92471104305" class="contact-link">+923471104305</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 It is my Portfolio. All rights reserved by me Noor Illahi </p>
+    </footer>
+</body>
+</html>
